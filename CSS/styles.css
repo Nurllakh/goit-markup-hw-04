@@ -555,3 +555,13 @@ img {
     padding-left: 0;
     padding-bottom: 34px;
 }
+.svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.svg-team {
+    border-radius: 44%;
+    border: red;
+    background-color: aqua;
+}
