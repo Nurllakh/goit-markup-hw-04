@@ -264,12 +264,7 @@ img {
 .soc .soc-li:not(:last-child) {
  margin-right: 10px;
 }
-.social-networks {
-    color: var(--white-text-color);
-}
-.social-networks:hover {
-    color: var(--background-text-color);
-}
+
 .button {
     font-family: Roboto, sans-serif;
     font-weight: 500;
@@ -438,8 +433,10 @@ img {
     margin-right: 30px;
 }
 .customer-img {
-    display: block;
+    display: flex;
     text-align: center; 
+    justify-content: center;
+    padding-top: 20px;
 }
 .customer-img:not(:last-child) {
     padding-right: 30px;
@@ -539,7 +536,7 @@ img {
 
 }
 .team-soc {
-    
+
     text-align:  center;
     width: 44px;
     height: 44px;
@@ -555,13 +552,50 @@ img {
     padding-left: 0;
     padding-bottom: 34px;
 }
-.svg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .svg-team {
-    border-radius: 44%;
-    border: red;
-    background-color: aqua;
+
+    width: 44px;
+    height: 44px;
+    fill: #afb1b8;  
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+}
+.svg-team:hover {
+    cursor: pointer;
+    fill: #FFFFFF;
+    background-color: #2196F3;
+}
+.svg-client {
+    fill: #afb1b8;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.custo {
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.svg-client:hover {
+    color:#2196F3 ;
+    fill: #2196F3;
+} 
+.social-networks {
+    width: 44px;
+    height: 44px;
+    fill: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.social-networks:hover {
+  background-color:#2196F3 ;
 }
