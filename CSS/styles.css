@@ -576,19 +576,20 @@ img {
     align-items: center;
     justify-content: center;
     display: flex;
-}
-.custo {
-    width: 170px;
-    height: 90px;
+    width:100%; 
+    height:100%; 
+    justify-content: center;
+    display: flex;
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
 }
+.custo {
+    width: 170px;
+    height: 90px;
+    
+}
 
-.svg-client:hover {
-    color:#2196F3 ;
-    fill: #2196F3;
-} 
 .social-networks {
     width: 44px;
     height: 44px;
@@ -602,5 +603,6 @@ img {
 .social-networks:hover {
   background-color:#2196F3 ;
 }
-.custo:hover {
-   border-color: #2196F3 ;
+.svg-client:hover {
+   fill: green;
+}
