@@ -396,6 +396,9 @@ img {
     border-radius: 4px;
     text-align: center;
     background-color: #F5F4FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .job-title {
     display: flex;
@@ -599,3 +602,5 @@ img {
 .social-networks:hover {
   background-color:#2196F3 ;
 }
+.custo:hover {
+   border-color: #2196F3 ;
