@@ -203,9 +203,18 @@ img {
 }
 .section-effective {
     padding: 200px 0;
-    background: rgba(47, 48, 58, 0.8);
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.8),
+        rgba(47, 48, 58, 0.8)
+        ),
+        url(../images/Headerimg.jpg);
+        text-align: center;
+        max-width: 1600px;
+        margin-right: auto; 
+        margin-left:auto
 }
 .service {  
+    cursor: pointer;
     margin-top: 45px;
     margin-left: auto;
     margin-right: auto;
@@ -266,6 +275,7 @@ img {
 }
 
 .button {
+    cursor: pointer;
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -342,6 +352,7 @@ img {
     letter-spacing: 0.03em;
 }
 .contacts-nav {
+    
     display: flex;
     margin-left: auto;
 }
@@ -435,6 +446,7 @@ img {
 .section-list .custo:not(:last-child) {
     margin-right: 30px;
 }
+
 .customer-img {
     display: flex;
     text-align: center; 
@@ -586,10 +598,8 @@ img {
 }
 .custo {
     width: 170px;
-    height: 90px;
-    
+    height: 90px;  
 }
-
 .social-networks {
     width: 44px;
     height: 44px;
@@ -603,6 +613,18 @@ img {
 .social-networks:hover {
   background-color:#2196F3 ;
 }
-.svg-client:hover {
-   fill: green;
+.custo a:hover {
+    border-color: #2196F3;
+}
+.custo a:hover svg {
+    fill: #2196F3;
+}
+.item a:hover svg {
+    fill: #2196F3;
+}
+.cont-svg {
+    margin-right: 10px;
+}
+.feature-etem:hover {
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
 }
